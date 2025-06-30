@@ -8,7 +8,7 @@ These samples demonstrate my ability to write technical documentation for RESTfu
 - OpenAPI Spec in YAML format
 
 Structure of the Repo
-API-DOC-Sample/
+API-DOC-Samples/
 ├── README.md                   <-- Overview of what's inside
 ├── quickstart/
 │   └── 01_Quickstart_Guide.md
