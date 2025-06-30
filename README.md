@@ -10,11 +10,7 @@ These samples demonstrate my ability to write technical documentation for RESTfu
 Structure of the Repo
 API-DOC-Samples/
 ├── README.md                   <-- Overview of what's inside
-├── quickstart/
-│   └── 01_Quickstart_Guide.md
-├── reference/
-│   └── 02_Card_Issue_Reference.md
-├── use-case/
-│   └── 03_Use_Case_Gig_Worker_Cards.md
-└── openapi/
-    └── OpenAPI_Card_Issuance.yaml
+├── 01_Quickstart_Guide.md 
+├── 02_Card_Issue_Reference.md
+├── 03_Use_Case_Gig_Worker_Cards.md
+└── OpenAPI_Card_Issuance.yaml
