@@ -1,0 +1,41 @@
+
+openapi: 3.0.0
+info:
+  title: Card Issuance API
+  version: 1.0.0
+paths:
+  /cards/issue:
+    post:
+      summary: Issue a new card
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                type:
+                  type: string
+                spend_limit:
+                  type: integer
+                currency:
+                  type: string
+              required: [user_id, type, currency]
+      responses:
+        '200':
+          description: A card object
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  card_id:
+                    type: string
+                  status:
+                    type: string
+                  last4:
+                    type: string
+                  created_at:
+                    type: string
